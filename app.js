@@ -16,6 +16,9 @@ const sslServer = https.createServer(
   app
 );
 
-sslServer.listen(3000, () =>
+console.log(process.env.PORT);
+
+sslServer.listen(process.env.PORT || 3000, () =>
   console.log("https://localhost:3000/ OKOK in 3000")
 );
+// use  npm "run use-env" in cmd to run env code

@@ -3,3 +3,5 @@ package-lock.json
 
 csr.pem
 key.pem
+
+# *.env .env need to be ignore (here is example so didn't ignore)
