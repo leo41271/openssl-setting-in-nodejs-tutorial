@@ -6,13 +6,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node app.js",
-    "use-env" : "node --env-file=.env app.js",
-    "dev-env" : "node --env-file=dev.env app.js",
-    "prod-env" : "node --env-file=prod.env app.js"
+    "use-env": "nodemon --env-file=.env app.js",
+    "dev-env": "nodemon --env-file=dev.env app.js",
+    "prod-env": "nodemon --env-file=prod.env app.js"
   },
   "author": "leo41271",
   "license": "ISC",
   "dependencies": {
     "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
   }
 }
