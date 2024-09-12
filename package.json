@@ -1,0 +1,15 @@
+{
+  "name": "openssl-node",
+  "version": "1.0.0",
+  "description": "openssl windows 環境下載 以node.js 為例部屬教學",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node app.js"
+  },
+  "author": "leo41271",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
